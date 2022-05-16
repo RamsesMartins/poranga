@@ -1,0 +1,24 @@
+#header{
+    padding: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(88, 58, 88);
+}
+a{
+    cursor: pointer;
+}
+.nav-item.nav-link{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.nav-item.nav-link:hover{
+    color: rgb(159, 132, 184);
+    text-decoration: solid;
+}
+
+#title_navbar{
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster', cursive;
+}

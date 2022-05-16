@@ -1,11 +1,15 @@
 const app = require('express')()
 const handlebars = require('express-handlebars')
 //CONFIGURAÇÕES
-    app.engine('handlebars',handlebars.engine())
-    app.set('view engine', 'handlebars')
+    //Public
+        app.use(require('express').static('public'))
+
+    //Handlebars
+        app.engine('hbs',handlebars.engine({extname: "hbs"}))
+        app.set('view engine', 'hbs')
 //ROTAS
     app.get('/', (req, res)=>{
-        res.render('home')
+        res.render('home')        
     })
 
 //LISTEN
