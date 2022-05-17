@@ -1,10 +1,14 @@
+html{
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+}
 #header{
     padding: 10px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
     background-color: rgb(88, 58, 88);
 }
-a{
+a,i{
+    color: rgb(34, 34, 34);
+    text-decoration: none;
     cursor: pointer;
 }
 .nav-item.nav-link{

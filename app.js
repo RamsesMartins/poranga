@@ -11,6 +11,15 @@ const handlebars = require('express-handlebars')
     app.get('/', (req, res)=>{
         res.render('home')        
     })
+    app.get('/busca',(req,res)=>{
+        res.render('busca')
+    })
+    app.get('/postar',(req, res)=>{
+        res.render('postar')
+    })
+    app.get('/perfil',(req, res)=>{
+        res.render('perfil')
+    })
 
 //LISTEN
     app.listen(8000, ()=>{
